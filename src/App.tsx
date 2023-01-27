@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <WarningImg src={alertTriangle} className="App-logo" alt="logo" />
-        <h1>Under Contruction</h1>
+        <h1>Under Construction</h1>
         <p>
           Sorry, Wayne's working hard to build something great
         </p>
