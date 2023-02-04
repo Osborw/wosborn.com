@@ -88,7 +88,7 @@ const App = () => {
           While there, I was a crew chief and chair for UPAC Sound, a board member for the Events Programming Team, and messed around on the soccer pitch during intramurals. 
         </Content>
         <Content>
-          Currently, I work as a full-stack web developer for Travelers Insurance. 
+          Since 2019, I have worked as a full-stack web developer for Travelers Insurance. 
           
           I mainly work in a React/TS stack with AWS hosted applications (both public and internal).
           Because of this, I'm often working with Terraform OSS to configure and deploy our applications.
