@@ -71,14 +71,14 @@ const App = () => {
         <h1>Wayne Osborn</h1>
         <ContactInfo>
           <Location>
-            <MapPinImg src={mapPinIcon} />
+            <MapPinImg src={mapPinIcon} alt='map pin image'/>
             <ContactHeaders>Essex, CT</ContactHeaders>
           </Location>
           <ContactHeaders>Full-stack web dev at Travelers</ContactHeaders>
           <OnlineLinks>
-            <MediaLinkImg src={mailIcon} />
-            <MediaLinkImg src={linkedInIcon} />
-            <MediaLinkImg src={githubIcon} />
+            <MediaLinkImg src={mailIcon} alt='mail' />
+            <MediaLinkImg src={linkedInIcon} alt='linkedIn' />
+            <MediaLinkImg src={githubIcon} alt='github'/>
           </OnlineLinks>
         </ContactInfo>
         <Content>
@@ -103,7 +103,7 @@ const App = () => {
           In my free time, I strive to travel. When that's not possible, I can be found cooking, visiting breweries, playing some game off Steam, or messing around with AI.
         </Content>
         <EndIconContainer>
-          <img src={endIcon} />
+          <img src={endIcon} alt='end of content' />
         </EndIconContainer>
       </ContentContainer>
     </AppContainer>
