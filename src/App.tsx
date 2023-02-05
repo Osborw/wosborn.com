@@ -4,6 +4,7 @@ import githubIcon from './assets/github.svg';
 import mailIcon from './assets/mail.svg';
 import linkedInIcon from './assets/linkedin.svg';
 import endIcon from './assets/more-horizontal.svg';
+import profPic from './assets/prof-pic.png'
 import styled from 'styled-components'
 
 const MapPinImg = styled.img`
@@ -29,10 +30,19 @@ const ContentContainer = styled.div`
   max-width: 700px;
 `
 
+const TopItemsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+const ProfPicContainer = styled.div`
+  margin-right: 1em;
+`
+
 const ContactHeaders = styled.h3`
   margin-block-start: .2rem;
   margin-block-end: .2rem;
-` 
+`
 
 const ContactInfo = styled.div`
   display: flex;
@@ -68,28 +78,41 @@ const App = () => {
   return (
     <AppContainer>
       <ContentContainer>
-        <h1>Wayne Osborn</h1>
-        <ContactInfo>
-          <Location>
-            <MapPinImg src={mapPinIcon} alt='map pin image'/>
-            <ContactHeaders>Essex, CT</ContactHeaders>
-          </Location>
-          <ContactHeaders>Full-stack web dev at Travelers</ContactHeaders>
-          <OnlineLinks>
-            <MediaLinkImg src={mailIcon} alt='mail' />
-            <MediaLinkImg src={linkedInIcon} alt='linkedIn' />
-            <MediaLinkImg src={githubIcon} alt='github'/>
-          </OnlineLinks>
-        </ContactInfo>
+        <TopItemsContainer>
+          <ProfPicContainer>
+            <img src={profPic} alt='profile' width='200px' />
+          </ProfPicContainer>
+          <div>
+            <h1>Wayne Osborn</h1>
+            <ContactInfo>
+              <Location>
+                <MapPinImg src={mapPinIcon} alt='map pin' />
+                <ContactHeaders>Essex, CT</ContactHeaders>
+              </Location>
+              <ContactHeaders>Full-stack web dev at Travelers</ContactHeaders>
+              <OnlineLinks>
+                <a href='mailto:jacobwayne1513@gmail.com' target="_blank" rel="noopener noreferrer">
+                  <MediaLinkImg src={mailIcon} alt='mail' />
+                </a>
+                <a href='https://www.linkedin.com/in/wayne-osborn/' target="_blank" rel="noopener noreferrer">
+                  <MediaLinkImg src={linkedInIcon} alt='linkedIn' />
+                </a>
+                <a href='https://github.com/Osborw' target="_blank" rel="noopener noreferrer">
+                  <MediaLinkImg src={githubIcon} alt='github' />
+                </a>
+              </OnlineLinks>
+            </ContactInfo>
+          </div>
+        </TopItemsContainer>
         <Content>
           In 2019, I graduated from Rensselaer Polytechnic Institute with a Bachelors in Computer Science.
         </Content>
         <Content>
-          While there, I was a crew chief and chair for UPAC Sound, a board member for the Events Programming Team, and messed around on the soccer pitch during intramurals. 
+          While there, I was a crew chief and chair for UPAC Sound, a board member for the Events Programming Team, and messed around on the soccer pitch during intramurals.
         </Content>
         <Content>
-          Since 2019, I have worked as a full-stack web developer for Travelers Insurance. 
-          
+          Since 2019, I have worked as a full-stack web developer for Travelers Insurance.
+
           I mainly work in a React/TS stack with AWS hosted applications (both public and internal).
           Because of this, I'm often working with Terraform OSS to configure and deploy our applications.
           I also regularly develop for existing applications in .NET.
