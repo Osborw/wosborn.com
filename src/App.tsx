@@ -123,7 +123,7 @@ const App = () => {
           Here, I used OWASP Zap and AppScan to identify security vulnerabilities within Travelers web applications.
         </Content>
         <Content>
-          In my free time, I strive to travel. When that's not possible, I can be found cooking, visiting breweries, playing some game off Steam, or messing around with AI.
+          In my free time, I strive to travel. When that's not possible, I can be found cooking, visiting breweries, playing some game off Steam, or shaving strokes off my golf game.
         </Content>
         <EndIconContainer>
           <img src={endIcon} alt='end of content' />
