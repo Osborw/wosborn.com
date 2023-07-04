@@ -4,7 +4,7 @@ import githubIcon from './assets/github.svg';
 import mailIcon from './assets/mail.svg';
 import linkedInIcon from './assets/linkedin.svg';
 import endIcon from './assets/more-horizontal.svg';
-import profPic from './assets/prof-pic.png'
+import profPic from './assets/prof-pic.webp'
 import styled from 'styled-components'
 
 const MapPinImg = styled.img`
