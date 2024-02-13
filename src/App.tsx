@@ -104,30 +104,6 @@ const App = () => {
             </ContactInfo>
           </div>
         </TopItemsContainer>
-        <Content>
-          In 2019, I graduated from Rensselaer Polytechnic Institute with a Bachelors in Computer Science.
-        </Content>
-        <Content>
-          While there, I was a crew chief and chair for UPAC Sound, a board member for the Events Programming Team, and messed around on the soccer pitch during intramurals.
-        </Content>
-        <Content>
-          Since 2019, I have worked as a full-stack web developer for Travelers Insurance.
-
-          I mainly work in a React/TS stack with AWS hosted applications (both public and internal).
-          Because of this, I'm often working with Terraform OSS to configure and deploy our applications.
-          I also regularly develop for existing applications in .NET.
-        </Content>
-        <Content>
-          Before this role, I also worked on the Travelers Application Security Team.
-
-          Here, I used OWASP Zap and AppScan to identify security vulnerabilities within Travelers web applications.
-        </Content>
-        <Content>
-          In my free time, I strive to travel. When that's not possible, I can be found cooking, visiting breweries, playing some game off Steam, or shaving strokes off my golf game.
-        </Content>
-        <EndIconContainer>
-          <img src={endIcon} alt='end of content' />
-        </EndIconContainer>
       </ContentContainer>
     </AppContainer>
   )

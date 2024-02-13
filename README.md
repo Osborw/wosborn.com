@@ -3,4 +3,4 @@
 
 Personal website for Wayne Osborn
 
-Built with React/TS and deployed with Netlify
+Built with HTML/CSS and deployed with Netlify
