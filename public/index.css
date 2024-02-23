@@ -56,8 +56,13 @@ a {
     color: inherit;
 }
 
+h3.fullname {
+  margin: 1rem 0 1rem 0;
+}
+
 h4 {
-  margin-bottom: .25rem;
+  margin: .25rem 0rem .25rem 0rem;
+  text-decoration: underline;
 }
 
 div.right--pane {
