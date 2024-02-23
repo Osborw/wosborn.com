@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Wayne Osborn's personal site"
-    />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Wayne Osborn</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Wayne Osborn's personal site" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <link rel="stylesheet" href="index.css">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <title>Wayne Osborn</title>
+</head>
+
+<body>
+  <div class="root">
+
+    <div class="left--pane">
+      <img class="profile" src="prof-pic.webp">
+      <div class="socials">
+        <h4>Links to Socials</h4>
+        <div class="socials--icons">
+          <a href="mailto:jacobwayne1513@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+          <a href="https://github.com/Osborw" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a>
+          <a href="https://www.linkedin.com/in/wayne-osborn/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right--pane">
+      <h3>
+        Hey, I'm Wayne!
+      </h3>
+
+      <p >
+        I'm currently living in <b>Essex, Connecticut</b>, working as a React/TS web developer for <b>Travelers Insurance</b>.
+      </p>
+      <p>
+        In 2019, I graduated from Rensselaer Polytechnic Institute with a Bachelors in Computer Science.
+      </p>
+      <p>
+        I've spent 5 years as a developer at Travelers.
+        I mainly develop in a React/TS stack with AWS hosted applications (both public and internal).
+        Because of this, I'm often working with Terraform to configure and deploy our applications.
+      </p>
+      <p>
+        Before this role, I also worked on the Travelers Application Security Team.
+        I used OWASP Zap and AppScan to identify security vulnerabilities within Travelers web applications.
+      </p>
+      <p>
+        In my free time, I love traveling. My favorite so far has been my trip to the southern coast of Iceland. 
+      </p>  
+      <p>
+        When I'm at home, I can be found cooking, visiting breweries, or shaving strokes off my golf game ⛳.
+      </p>
+      <p class="content--end">
+        ...
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>
