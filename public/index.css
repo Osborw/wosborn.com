@@ -11,33 +11,58 @@ body {
 }
 
 div.root {
-  margin: 1rem 5rem 1rem 5rem;
-  max-width: 800px;
+  margin: 5rem 5rem 5rem 5rem;
+  max-width: 1000px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 @media (max-width: 950px) {
-  div.horizontal {
+  div.root {
+    margin: 2rem 2rem 2rem 2rem;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
   }
 }
 
 @media not (max-width: 950px) {
-  div.horizontal {
+  div.root {
+    margin: 5rem 5rem 5rem 5rem;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 }
 
-h3 {
-  width: 33%;
-  min-width: 250px;
-  margin-bottom: 2rem;
+div.left--pane {
+  margin: 0rem 1rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.socials {
   text-align: center;
+}
+
+div.socials--icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h4 {
+  margin-bottom: .25rem;
+}
+
+div.right--pane {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+i {
+  font-size: 24px;
+  margin: 0px 5px 0px 5px;
 }
 
 img.profile {
